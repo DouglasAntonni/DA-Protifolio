@@ -1,0 +1,221 @@
+@font-face {
+  font-family:'oldlondon';
+  src: url('./fonts/OldLondon.ttf') format('truetype'),
+  url('./fonts/Olondon_.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+ 
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'oldlondon';
+    
+  }
+  
+.header {
+    background-color: rgb(50, 167, 145);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+.header h1{
+  font-size: 3.5em;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px 2px black;
+}
+  .trybewarts-header-logo {
+    width: 80px;
+  }
+  
+  .login {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .trybewarts-login {
+      display: flex;
+    gap: 10px;
+}
+
+  .trybewarts-login input {
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  .trybewarts-login button {
+    padding: 0 50px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(91, 45, 134);
+    color: white;
+    cursor: pointer;
+  }
+  
+  #label-content {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+  .labelCheck input {
+    margin-left: 10px;
+    margin-right: 5px;
+    
+  }
+  
+  .family {
+    width:50%;
+    padding: 0 20px;
+    cursor: pointer;
+  }
+  
+  #evaluation-form {
+    width: 675px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 100px 0 30px;
+    background-color: rgba(250, 235, 215, 0.527);
+    border-radius: 10px;
+}
+  
+  #evaluation-form h1 {
+      font-size: 40px;
+      margin: 20px;
+  }
+  
+  #name-lastname-container {
+      display: flex;
+  }
+  
+  #input-name , #input-lastname , #input-email {
+    margin: 10px 2px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.0em;
+  }
+  
+  #house {
+      height: 50px;
+      width: 211px;
+      border-radius: 5px;
+      margin-top: 10px;
+      font-size: 1.2em;
+      text-align: center;
+      cursor: pointer;
+    }
+   
+    
+  .section-1 span {
+      margin: 10px;
+    }
+  
+  .section-2 {
+    display: flex;
+    gap: 80px;  
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+     
+  }
+  
+  #frontend , #backend , #fullstack {
+    display: flex;
+    flex-wrap: wrap;    
+    margin: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/hogwarts-legacy-harry-potter.png);
+    background-size: cover;
+}
+  
+  #trybewarts-forms-logo {
+    height: 500px;
+  }
+  
+  .labelRadio input {
+    margin-left: 5px;
+  }
+  
+  .lines {
+    border: 1px solid rgb(145, 145, 145);
+    width: 100%;
+    display: flex;
+    align-self: center;
+    margin: 10px 0;
+  }
+  
+  #textarea {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 10px;
+  }
+  .textarea{
+    margin: 15px;
+  }
+  
+  #counter {
+    font-size: 12px;
+    align-self: flex-end;
+    position: absolute;
+    top: 125px;
+    right: 10px;
+  }
+  
+  #submit-btn {
+    height: 20px;
+    margin-bottom: 20px;
+    padding: 0 40%;
+    background-color: rgb(91, 45, 134);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: rgb(50, 167, 145);
+    color: white;
+  }
+  
+  #form-data {
+    padding: 200px;
+    width: 700px;
+    padding-bottom: 400px;
+    background-image: url('./images/pngegg2.png');
+    background-size: 700px 700px;
+    background-repeat: no-repeat;
+    display:inline-block;
+  }
+  #form-data p{
+    padding: 4px;
+    margin: 10px;
+    font-size: 1.8em;
+    color: rgb(0, 0, 0);
+    text-shadow: 1.5px 1.5px 1px rgb(50, 167, 145);
+    
+  }
+  .agreement{
+    padding: 20px;
+  }
+.subject{
+   margin: 15px;
+}
